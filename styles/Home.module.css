@@ -2,6 +2,57 @@
   padding: 0 2rem;
 }
 
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 20;
+  box-shadow: 0 0 7px 0 rgb(0 0 0 / 75%);
+  overflow: hidden;
+  padding: 13px 8px;
+  background-color: #171a21;
+  color: white;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  margin-left: 15%;
+}
+
+.headerLink {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-left: 15%;
+}
+
+.headerLinks {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 22%;
+}
+
+.headerLogin {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30%;
+}
+
+.headerLoginLink {
+  background: #98971a;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -10,6 +61,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #3D4450;
 }
 
 .footer {
