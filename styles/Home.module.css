@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  
 }
 
 .header {
@@ -49,6 +49,7 @@
 
 .headerLoginLink {
   background: #98971a;
+  border: 1px solid #79740e;
   padding: 0.5rem 1rem;
   font-weight: bold;
 }
@@ -68,16 +69,19 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  background-color: #000;
 }
 
 .footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  padding-right: 5%;
+}
+
+.footerCopyright {
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 .title a {

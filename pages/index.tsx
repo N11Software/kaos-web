@@ -69,16 +69,10 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+        <a href="https://n11software.com">
+          <Image src="/images/N11-Logo-Alternate-Transparent.png" width={75} height={50} />
         </a>
+        <p className={styles.footerCopyright}>Copyright © N11 Software. All rights reserved. All trademarks are property of their respective owners in the US and other countries.</p>
       </footer>
     </div >
   )
