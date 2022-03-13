@@ -52,7 +52,15 @@
   border: 1px solid #79740e;
   padding: 0.5rem 1rem;
   font-weight: bold;
+  transition: 0.25s;
 }
+
+.headerLoginLink:hover,
+.headerLoginLink:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
 
 .main {
   min-height: 100vh;
