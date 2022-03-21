@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 let Navbar = () => {
-  return <nav className="flex bg-stone-900 w-full px-16 py-2 items-center space-x-4">
+  return <nav className="flex bg-stone-900 w-full px-16 py-4 items-center space-x-4">
     <Link href="/">
       <a className="text-stone-100 text-2xl font-bold luwh">Kaos</a>  
     </Link>
