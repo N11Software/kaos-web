@@ -95,3 +95,8 @@
 a#navbarLinks {
   font-size: 18px;
 }
+
+#copyrightFooter {
+	font-style: 500;
+	font-size: 14px;
+}
