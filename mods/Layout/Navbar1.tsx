@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-let Navbar = () => {
+let Navbar1 = () => {
   return <nav className="flex bg-stone-900 w-full px-16 py-4 items-center space-x-4">
     <Link href="/">
       <Image src="/images/favicon.png" alt="logo" width={32} height={32} />
@@ -31,4 +31,4 @@ let Navbar = () => {
   </nav>
 }
 
-export default Navbar
+export default Navbar1
