@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Navbar2 from '../mods/Layout/Navbar2'
+import Navbar from '../mods/Layout/Navbar'
 import Footer from '../mods/Layout/Footer'
 
 let Home = () => {
@@ -11,9 +11,9 @@ let Home = () => {
 			{/* We don't have a logo yet. */}
 			{/* - FiRe */}
 		</Head>
-		<Navbar2 />
+		<Navbar />
 
-		<div className="h-screen bg-stone-800 text-stone-100">
+		<div className="bg-stone-800 text-stone-100">
 
 		</div>
 
